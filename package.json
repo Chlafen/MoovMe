@@ -1,0 +1,27 @@
+{
+  "name": "moovme",
+  "version": "1.0.0",
+  "description": "Services de demenagement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chlafen/MoovMe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chlafen/MoovMe/issues"
+  },
+  "homepage": "https://github.com/Chlafen/MoovMe#readme",
+  "dependencies": {
+    "react-icons": "^4.7.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0"
+  }
+}

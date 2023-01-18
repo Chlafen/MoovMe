@@ -1,0 +1,33 @@
+.header-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem; 
+
+  .header-card__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--orange);
+    font-size: 1.5rem;
+  }
+  .header-card__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .header-card__text__title{
+      color: var(--gray);
+      font-size: 0.875rem;
+      font-weight: medium;
+    }
+    .header-card__text__content{
+      color: var(--blue);
+      font-weight: bolder;
+      font-size: 1.125rem;
+
+    }
+  }
+}
